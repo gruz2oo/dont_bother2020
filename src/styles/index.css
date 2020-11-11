@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Bogart';
+    src: url('../assets/fonts/Bogart-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/Bogart-Semibold.woff') format('woff'),
+        url('../assets/fonts/Bogart-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+html, #root {
+    min-height: 100%;
+    height: 100%;
+}
+body {
+    --nav-width: 200px;
+    font-family: 'OpenSans';
+    font-size: 18px;
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Bogart';
+    font-size: 72px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bogart';
+    font-size: 36px;
+}
+
+p {
+    font-family: 'OpenSans';
+    font-size: 14px;
+}
+
+section {
+    min-height: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section h2 {
+    margin: 8px 0 15px;
+}
+
+#login-id {
+    position: relative;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -8.33%, rgba(251, 254, 255, 0) 14.52%, #F0FCFF 34.1%, #E9F3FF 55.32%, #85BFFF 154.89%);
+}
+
+.bcg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form-container {
+    position: relative;
+    padding: 45px 83px;
+    box-shadow: 0px 20px 50px rgba(42, 58, 87, 0.07), 0px 10px 30px rgba(42, 58, 87, 0.07);
+    width: 330px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 100;
+    margin-top: 47px;
+    text-align: center;
+}
+
+.form-container input {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 312px;
+    margin-bottom: 34px;
+    height: 40px;
+    border: 1px solid rgb(208,223,240);
+    font-family: 'OpenSans';
+    padding: 0 8px;
+}
+
+.forgot {
+    text-decoration-line: underline;
+    text-align: right;
+    font-size: 12px;
+    position: absolute;
+    right: 85px;
+    margin-top: -28px;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    background: radial-gradient(125% 125% at 85.42% 0%, #8ADCFF 0%, #0194D3 100%);
+    border-radius: 8px;
+    height: 45px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'OpenSans';
+    margin-top: 5px;
+}
+
+.sub {
+    margin-top: 20px;
+}
+
+#sign-id .form-container {
+    padding: 45px 0;
+    width: 496px;
+}
+
+#sign-id form {
+    width: 330px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 142px;
+    background: rgba(255, 255, 255, 0.8);
+    align-items: center;
+}
+
+.contact-block {
+    color: #152D59;
+    font-size: 12px;
+    margin-right: 52px;
+}
+
+.contact-block a {
+    margin-right: 52px;
+}
+
+.contact-block a:last-child {
+    margin-right: 0;
+}
+
+.copy {
+    color: #1E2833;
+    opacity: .5;
+    font-size: 12px;
+}
+
+.logo {
+    color: #152D59;
+    opacity: 0.8;
+    font-size: 20px;
+}
